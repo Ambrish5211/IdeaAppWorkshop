@@ -41,4 +41,4 @@ const userSchema = new mongoose.Schema(
 
 // Define the collection name where it would be stored
 
-mongoose.model("User",userSchema);
+module.exports = mongoose.model("User",userSchema);
